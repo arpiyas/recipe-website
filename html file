@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Heaven</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <h1>Recipe Heaven</h1>
+      <nav class="nav">
+        <a href="#">Home</a>
+        <a href="#">Recipes</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h2>Discover Delicious Recipes</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Explore a variety of dishes perfect for every occasion.</p>
+        <a href="#" class="btn">Get Started</a>
+      </div>
+    </section>
+
+    <section class="recipes">
+      <div class="container">
+        <h3>Featured Recipes</h3>
+        <div class="recipe-grid">
+          <div class="recipe-card">
+            <img src="download.jpeg" alt="">
+            <h4>Recipe 1</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="#" class="btn">View Recipe</a>
+          </div>
+          <div class="recipe-card">
+            <img src="OIF.jpeg" alt="Recipe Image">
+            <h4>Recipe 2</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="#" class="btn">View Recipe</a>
+          </div>
+          <div class="recipe-card">
+            <img src="OIP.jpeg" alt="Recipe Image">
+            <h4>Recipe 3</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="#" class="btn">View Recipe</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p> 2024 Recipe Haven. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
